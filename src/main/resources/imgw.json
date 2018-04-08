@@ -1,757 +1,821 @@
-	
-0	
-id_stacji	"12295"
-stacja	"Białystok"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.2"
-predkosc_wiatru	"1"
-kierunek_wiatru	"190"
-wilgotnosc_wzgledna	"59.9"
-odparowanie	null
-suma_opadu	"0000000000.2"
-cisnienie	"1010.6"
-1	
-id_stacji	"12600"
-stacja	"Bielsko Biała"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.5"
-predkosc_wiatru	"6"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"52.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.9"
-2	
-id_stacji	"12235"
-stacja	"Chojnice"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.4"
-predkosc_wiatru	"2"
-kierunek_wiatru	"110"
-wilgotnosc_wzgledna	"54.9"
-odparowanie	null
-suma_opadu	"0000000000.2"
-cisnienie	"1008.5"
-3	
-id_stacji	"12550"
-stacja	"Częstochowa"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.1"
-predkosc_wiatru	"2"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"54.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.3"
-4	
-id_stacji	"12556"
-stacja	"Dźwirzyno"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.2"
-predkosc_wiatru	"1"
-kierunek_wiatru	"99"
-wilgotnosc_wzgledna	"79.4"
-odparowanie	null
-suma_opadu	"000000000000"
-cisnienie	"1008.9"
-5	
-id_stacji	"12160"
-stacja	"Elbląg"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"56.6"
-odparowanie	null
-suma_opadu	"0000000000.7"
-cisnienie	"1008.9"
-6	
-id_stacji	"12155"
-stacja	"Gdańsk"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.4"
-predkosc_wiatru	"4"
-kierunek_wiatru	"10"
-wilgotnosc_wzgledna	"75.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1008.6"
-7	
-id_stacji	"12300"
-stacja	"Gorzów"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"9.8"
-predkosc_wiatru	"1"
-kierunek_wiatru	"80"
-wilgotnosc_wzgledna	"47.6"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1007.8"
-8	
-id_stacji	"12135"
-stacja	"Hel"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"360"
-wilgotnosc_wzgledna	"65.8"
-odparowanie	null
-suma_opadu	"0000000000.3"
-cisnienie	"1008.8"
-9	
-id_stacji	"12500"
-stacja	"Jelenia Góra"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.6"
-predkosc_wiatru	"3"
-kierunek_wiatru	"150"
-wilgotnosc_wzgledna	"57.6"
-odparowanie	null
-suma_opadu	"0000000000.2"
-cisnienie	"1009.4"
-10	
-id_stacji	"12435"
-stacja	"Kalisz"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.6"
-predkosc_wiatru	"5"
-kierunek_wiatru	"160"
-wilgotnosc_wzgledna	"59.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.5"
-11	
-id_stacji	"12650"
-stacja	"Kasprowy Wierch"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"-6.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"60"
-wilgotnosc_wzgledna	"91.1"
-odparowanie	null
-suma_opadu	"0000000001.2"
-cisnienie	null
-12	
-id_stacji	"12560"
-stacja	"Katowice"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.6"
-predkosc_wiatru	"3"
-kierunek_wiatru	"240"
-wilgotnosc_wzgledna	"53.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.7"
-13	
-id_stacji	"12185"
-stacja	"Kętrzyn"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.9"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"60.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.1"
-14	
-id_stacji	"12570"
-stacja	"Kielce"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.2"
-predkosc_wiatru	"1"
-kierunek_wiatru	"120"
-wilgotnosc_wzgledna	"59.9"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.4"
-15	
-id_stacji	"12520"
-stacja	"Kłodzko"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"2.7"
-predkosc_wiatru	"6"
-kierunek_wiatru	"180"
-wilgotnosc_wzgledna	"71.0"
-odparowanie	null
-suma_opadu	"0000000000.5"
-cisnienie	"1011.6"
-16	
-id_stacji	"12345"
-stacja	"Koło"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.6"
-predkosc_wiatru	"2"
-kierunek_wiatru	"180"
-wilgotnosc_wzgledna	"53.8"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.5"
-17	
-id_stacji	"12100"
-stacja	"Kołobrzeg"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.5"
-predkosc_wiatru	"1"
-kierunek_wiatru	"40"
-wilgotnosc_wzgledna	"74.9"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1008.9"
-18	
-id_stacji	"12105"
-stacja	"Koszalin"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.4"
-predkosc_wiatru	"2"
-kierunek_wiatru	"360"
-wilgotnosc_wzgledna	"68.7"
-odparowanie	null
-suma_opadu	"0000000001.3"
-cisnienie	"1008.7"
-19	
-id_stacji	"12488"
-stacja	"Kozienice"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.3"
-predkosc_wiatru	"2"
-kierunek_wiatru	"170"
-wilgotnosc_wzgledna	"59.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.1"
-20	
-id_stacji	"12566"
-stacja	"Kraków"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.6"
-predkosc_wiatru	"4"
-kierunek_wiatru	"250"
-wilgotnosc_wzgledna	"51.7"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1011.2"
-21	
-id_stacji	"12670"
-stacja	"Krosno"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.3"
-predkosc_wiatru	"4"
-kierunek_wiatru	"170"
-wilgotnosc_wzgledna	"53.7"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1013"
-22	
-id_stacji	"12415"
-stacja	"Legnica"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.7"
-predkosc_wiatru	"4"
-kierunek_wiatru	"190"
-wilgotnosc_wzgledna	"60.2"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1008.9"
-23	
-id_stacji	"12690"
-stacja	"Lesko"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.9"
-predkosc_wiatru	"3"
-kierunek_wiatru	"210"
-wilgotnosc_wzgledna	"55.7"
-odparowanie	null
-suma_opadu	"0000000000.3"
-cisnienie	"1013.6"
-24	
-id_stacji	"12418"
-stacja	"Leszno"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"170"
-wilgotnosc_wzgledna	"52.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1008.6"
-25	
-id_stacji	"12125"
-stacja	"Lębork"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.2"
-predkosc_wiatru	"1"
-kierunek_wiatru	"350"
-wilgotnosc_wzgledna	"62.8"
-odparowanie	null
-suma_opadu	"0000000000.5"
-cisnienie	"1008.7"
-26	
-id_stacji	"12495"
-stacja	"Lublin"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.6"
-predkosc_wiatru	"1"
-kierunek_wiatru	"170"
-wilgotnosc_wzgledna	"65.1"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1012"
-27	
-id_stacji	"12120"
-stacja	"Łeba"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"2.3"
-predkosc_wiatru	"2"
-kierunek_wiatru	"250"
-wilgotnosc_wzgledna	"78.1"
-odparowanie	null
-suma_opadu	"0000000000.6"
-cisnienie	"1008.7"
-28	
-id_stacji	"12465"
-stacja	"Łódź"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.7"
-predkosc_wiatru	"3"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"50.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1010.1"
-29	
-id_stacji	"12280"
-stacja	"Mikołajki"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"49.5"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.4"
-30	
-id_stacji	"12270"
-stacja	"Mława"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.7"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"58.5"
-odparowanie	null
-suma_opadu	"0000000000.3"
-cisnienie	"1009.6"
-31	
-id_stacji	"12660"
-stacja	"Nowy Sącz"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.1"
-predkosc_wiatru	"2"
-kierunek_wiatru	"130"
-wilgotnosc_wzgledna	"44.5"
-odparowanie	null
-suma_opadu	"0000000000.4"
-cisnienie	"1011.2"
-32	
-id_stacji	"12272"
-stacja	"Olsztyn"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7"
-predkosc_wiatru	"2"
-kierunek_wiatru	"240"
-wilgotnosc_wzgledna	"52.8"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1009.1"
-33	
-id_stacji	"12530"
-stacja	"Opole"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.3"
-predkosc_wiatru	"4"
-kierunek_wiatru	"180"
-wilgotnosc_wzgledna	"57.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.4"
-34	
-id_stacji	"12285"
-stacja	"Ostrołęka"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.9"
-predkosc_wiatru	"2"
-kierunek_wiatru	"230"
-wilgotnosc_wzgledna	"47.6"
-odparowanie	null
-suma_opadu	"000000000000"
-cisnienie	"1010"
-35	
-id_stacji	"12230"
-stacja	"Piła"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.7"
-predkosc_wiatru	"0"
-kierunek_wiatru	"0"
-wilgotnosc_wzgledna	"48.5"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1008.4"
-36	
-id_stacji	"12001"
-stacja	"Platforma"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.1"
-predkosc_wiatru	"8"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"81.1"
-odparowanie	null
-suma_opadu	null
-cisnienie	"1007.4"
-37	
-id_stacji	"12360"
-stacja	"Płock"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"48.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.5"
-38	
-id_stacji	"12330"
-stacja	"Poznań"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"9.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"170"
-wilgotnosc_wzgledna	"43.6"
-odparowanie	null
-suma_opadu	"0000000001.1"
-cisnienie	"1008.5"
-39	
-id_stacji	"12695"
-stacja	"Przemyśl"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.9"
-predkosc_wiatru	"2"
-kierunek_wiatru	"99"
-wilgotnosc_wzgledna	"49.8"
-odparowanie	null
-suma_opadu	"000000000000"
-cisnienie	"1013"
-40	
-id_stacji	"12540"
-stacja	"Racibórz"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.7"
-predkosc_wiatru	"6"
-kierunek_wiatru	"210"
-wilgotnosc_wzgledna	"67.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1012.2"
-41	
-id_stacji	"12210"
-stacja	"Resko"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.5"
-predkosc_wiatru	"2"
-kierunek_wiatru	"350"
-wilgotnosc_wzgledna	"72.6"
-odparowanie	null
-suma_opadu	"000000000000"
-cisnienie	"1008.3"
-42	
-id_stacji	"12580"
-stacja	"Rzeszów"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.5"
-predkosc_wiatru	"3"
-kierunek_wiatru	"150"
-wilgotnosc_wzgledna	"55.8"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1012.8"
-43	
-id_stacji	"12585"
-stacja	"Sandomierz"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.8"
-predkosc_wiatru	"3"
-kierunek_wiatru	"150"
-wilgotnosc_wzgledna	"52.5"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1012"
-44	
-id_stacji	"12385"
-stacja	"Siedlce"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.7"
-predkosc_wiatru	"2"
-kierunek_wiatru	"190"
-wilgotnosc_wzgledna	"53.5"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1010.9"
-45	
-id_stacji	"12310"
-stacja	"Słubice"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"9.4"
-predkosc_wiatru	"2"
-kierunek_wiatru	"220"
-wilgotnosc_wzgledna	"46.5"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1008.1"
-46	
-id_stacji	"12469"
-stacja	"Sulejów"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"160"
-wilgotnosc_wzgledna	"59.8"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1010.4"
-47	
-id_stacji	"12195"
-stacja	"Suwałki"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.4"
-predkosc_wiatru	"2"
-kierunek_wiatru	"180"
-wilgotnosc_wzgledna	"51.6"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1009.4"
-48	
-id_stacji	"12205"
-stacja	"Szczecin"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"8.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"280"
-wilgotnosc_wzgledna	"49.5"
-odparowanie	null
-suma_opadu	"0000000002.2"
-cisnienie	"1008.4"
-49	
-id_stacji	"12215"
-stacja	"Szczecinek"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6"
-predkosc_wiatru	"0"
-kierunek_wiatru	"0"
-wilgotnosc_wzgledna	"67.6"
-odparowanie	null
-suma_opadu	"000000000000"
-cisnienie	"1008.1"
-50	
-id_stacji	"12510"
-stacja	"Śnieżka"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"-6"
-predkosc_wiatru	"6"
-kierunek_wiatru	"210"
-wilgotnosc_wzgledna	"97.0"
-odparowanie	null
-suma_opadu	"0000000003.2"
-cisnienie	null
-51	
-id_stacji	"12200"
-stacja	"Świnoujście"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"2.8"
-predkosc_wiatru	"0"
-kierunek_wiatru	"0"
-wilgotnosc_wzgledna	"82.9"
-odparowanie	null
-suma_opadu	"0000000003.8"
-cisnienie	"1009.1"
-52	
-id_stacji	"12575"
-stacja	"Tarnów"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.2"
-predkosc_wiatru	"2"
-kierunek_wiatru	"150"
-wilgotnosc_wzgledna	"44.5"
-odparowanie	null
-suma_opadu	"0000000000.2"
-cisnienie	"1011.3"
-53	
-id_stacji	"12399"
-stacja	"Terespol"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.8"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"57.9"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1011.7"
-54	
-id_stacji	"12250"
-stacja	"Toruń"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.9"
-predkosc_wiatru	"0"
-kierunek_wiatru	"0"
-wilgotnosc_wzgledna	"51.5"
-odparowanie	null
-suma_opadu	"0000000001.3"
-cisnienie	"1008.9"
-55	
-id_stacji	"12115"
-stacja	"Ustka"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"3.9"
-predkosc_wiatru	"1"
-kierunek_wiatru	"230"
-wilgotnosc_wzgledna	"75.0"
-odparowanie	null
-suma_opadu	"0000000000.6"
-cisnienie	"1008.7"
-56	
-id_stacji	"12375"
-stacja	"Warszawa"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"7.9"
-predkosc_wiatru	"1"
-kierunek_wiatru	"190"
-wilgotnosc_wzgledna	"49.6"
-odparowanie	null
-suma_opadu	"0000000000.1"
-cisnienie	"1010.3"
-57	
-id_stacji	"12455"
-stacja	"Wieluń"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5.4"
-predkosc_wiatru	"3"
-kierunek_wiatru	"210"
-wilgotnosc_wzgledna	"59.5"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1010.8"
-58	
-id_stacji	"12497"
-stacja	"Włodawa"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"5"
-predkosc_wiatru	"4"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"60.7"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1012.1"
-59	
-id_stacji	"12424"
-stacja	"Wrocław"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"6.4"
-predkosc_wiatru	"6"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"57.6"
-odparowanie	null
-suma_opadu	"0000000000.9"
-cisnienie	"1009.7"
-60	
-id_stacji	"12625"
-stacja	"Zakopane"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"2.9"
-predkosc_wiatru	"2"
-kierunek_wiatru	"230"
-wilgotnosc_wzgledna	"55.8"
-odparowanie	null
-suma_opadu	"0000000000.5"
-cisnienie	null
-61	
-id_stacji	"12595"
-stacja	"Zamość"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"4.5"
-predkosc_wiatru	"2"
-kierunek_wiatru	"200"
-wilgotnosc_wzgledna	"58.8"
-odparowanie	null
-suma_opadu	"000000000.01"
-cisnienie	"1012.8"
-62	
-id_stacji	"12400"
-stacja	"Zielona Góra"
-data_pomiaru	"2018-03-25"
-godzina_pomiaru	"17"
-temperatura	"8.6"
-predkosc_wiatru	"3"
-kierunek_wiatru	"240"
-wilgotnosc_wzgledna	"45.6"
-odparowanie	null
-suma_opadu	"0000000000.2"
-cisnienie	"1008.3"
+[
+  {
+    "id_stacji": "12295",
+    "stacja": "Bia\u0142ystok",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.2",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "190",
+    "wilgotnosc_wzgledna": "59.9",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.2",
+    "cisnienie": "1010.6"
+  },
+  {
+    "id_stacji": "12600",
+    "stacja": "Bielsko Bia\u0142a",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.5",
+    "predkosc_wiatru": "6",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "52.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.9"
+  },
+  {
+    "id_stacji": "12235",
+    "stacja": "Chojnice",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.4",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "110",
+    "wilgotnosc_wzgledna": "54.9",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.2",
+    "cisnienie": "1008.5"
+  },
+  {
+    "id_stacji": "12550",
+    "stacja": "Cz\u0119stochowa",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.1",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "54.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.3"
+  },
+  {
+    "id_stacji": "12556",
+    "stacja": "D\u017awirzyno",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.2",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "99",
+    "wilgotnosc_wzgledna": "79.4",
+    "odparowanie": null,
+    "suma_opadu": "000000000000",
+    "cisnienie": "1008.9"
+  },
+  {
+    "id_stacji": "12160",
+    "stacja": "Elbl\u0105g",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "56.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.7",
+    "cisnienie": "1008.9"
+  },
+  {
+    "id_stacji": "12155",
+    "stacja": "Gda\u0144sk",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.4",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "10",
+    "wilgotnosc_wzgledna": "75.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1008.6"
+  },
+  {
+    "id_stacji": "12300",
+    "stacja": "Gorz\u00f3w",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "9.8",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "80",
+    "wilgotnosc_wzgledna": "47.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1007.8"
+  },
+  {
+    "id_stacji": "12135",
+    "stacja": "Hel",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "360",
+    "wilgotnosc_wzgledna": "65.8",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.3",
+    "cisnienie": "1008.8"
+  },
+  {
+    "id_stacji": "12500",
+    "stacja": "Jelenia G\u00f3ra",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.6",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "150",
+    "wilgotnosc_wzgledna": "57.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.2",
+    "cisnienie": "1009.4"
+  },
+  {
+    "id_stacji": "12435",
+    "stacja": "Kalisz",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.6",
+    "predkosc_wiatru": "5",
+    "kierunek_wiatru": "160",
+    "wilgotnosc_wzgledna": "59.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.5"
+  },
+  {
+    "id_stacji": "12650",
+    "stacja": "Kasprowy Wierch",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "-6.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "60",
+    "wilgotnosc_wzgledna": "91.1",
+    "odparowanie": null,
+    "suma_opadu": "0000000001.2",
+    "cisnienie": null
+  },
+  {
+    "id_stacji": "12560",
+    "stacja": "Katowice",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.6",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "240",
+    "wilgotnosc_wzgledna": "53.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.7"
+  },
+  {
+    "id_stacji": "12185",
+    "stacja": "K\u0119trzyn",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.9",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "60.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.1"
+  },
+  {
+    "id_stacji": "12570",
+    "stacja": "Kielce",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.2",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "120",
+    "wilgotnosc_wzgledna": "59.9",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.4"
+  },
+  {
+    "id_stacji": "12520",
+    "stacja": "K\u0142odzko",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "2.7",
+    "predkosc_wiatru": "6",
+    "kierunek_wiatru": "180",
+    "wilgotnosc_wzgledna": "71.0",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.5",
+    "cisnienie": "1011.6"
+  },
+  {
+    "id_stacji": "12345",
+    "stacja": "Ko\u0142o",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.6",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "180",
+    "wilgotnosc_wzgledna": "53.8",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.5"
+  },
+  {
+    "id_stacji": "12100",
+    "stacja": "Ko\u0142obrzeg",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.5",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "40",
+    "wilgotnosc_wzgledna": "74.9",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1008.9"
+  },
+  {
+    "id_stacji": "12105",
+    "stacja": "Koszalin",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.4",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "360",
+    "wilgotnosc_wzgledna": "68.7",
+    "odparowanie": null,
+    "suma_opadu": "0000000001.3",
+    "cisnienie": "1008.7"
+  },
+  {
+    "id_stacji": "12488",
+    "stacja": "Kozienice",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.3",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "170",
+    "wilgotnosc_wzgledna": "59.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.1"
+  },
+  {
+    "id_stacji": "12566",
+    "stacja": "Krak\u00f3w",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.6",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "250",
+    "wilgotnosc_wzgledna": "51.7",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1011.2"
+  },
+  {
+    "id_stacji": "12670",
+    "stacja": "Krosno",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.3",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "170",
+    "wilgotnosc_wzgledna": "53.7",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1013"
+  },
+  {
+    "id_stacji": "12415",
+    "stacja": "Legnica",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.7",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "190",
+    "wilgotnosc_wzgledna": "60.2",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1008.9"
+  },
+  {
+    "id_stacji": "12690",
+    "stacja": "Lesko",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.9",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "210",
+    "wilgotnosc_wzgledna": "55.7",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.3",
+    "cisnienie": "1013.6"
+  },
+  {
+    "id_stacji": "12418",
+    "stacja": "Leszno",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "170",
+    "wilgotnosc_wzgledna": "52.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1008.6"
+  },
+  {
+    "id_stacji": "12125",
+    "stacja": "L\u0119bork",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.2",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "350",
+    "wilgotnosc_wzgledna": "62.8",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.5",
+    "cisnienie": "1008.7"
+  },
+  {
+    "id_stacji": "12495",
+    "stacja": "Lublin",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.6",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "170",
+    "wilgotnosc_wzgledna": "65.1",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1012"
+  },
+  {
+    "id_stacji": "12120",
+    "stacja": "\u0141eba",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "2.3",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "250",
+    "wilgotnosc_wzgledna": "78.1",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.6",
+    "cisnienie": "1008.7"
+  },
+  {
+    "id_stacji": "12465",
+    "stacja": "\u0141\u00f3d\u017a",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.7",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "50.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1010.1"
+  },
+  {
+    "id_stacji": "12280",
+    "stacja": "Miko\u0142ajki",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "49.5",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.4"
+  },
+  {
+    "id_stacji": "12270",
+    "stacja": "M\u0142awa",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.7",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "58.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.3",
+    "cisnienie": "1009.6"
+  },
+  {
+    "id_stacji": "12660",
+    "stacja": "Nowy S\u0105cz",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.1",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "130",
+    "wilgotnosc_wzgledna": "44.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.4",
+    "cisnienie": "1011.2"
+  },
+  {
+    "id_stacji": "12272",
+    "stacja": "Olsztyn",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "240",
+    "wilgotnosc_wzgledna": "52.8",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1009.1"
+  },
+  {
+    "id_stacji": "12530",
+    "stacja": "Opole",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.3",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "180",
+    "wilgotnosc_wzgledna": "57.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.4"
+  },
+  {
+    "id_stacji": "12285",
+    "stacja": "Ostro\u0142\u0119ka",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.9",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "230",
+    "wilgotnosc_wzgledna": "47.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000000",
+    "cisnienie": "1010"
+  },
+  {
+    "id_stacji": "12230",
+    "stacja": "Pi\u0142a",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.7",
+    "predkosc_wiatru": "0",
+    "kierunek_wiatru": "0",
+    "wilgotnosc_wzgledna": "48.5",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1008.4"
+  },
+  {
+    "id_stacji": "12001",
+    "stacja": "Platforma",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.1",
+    "predkosc_wiatru": "8",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "81.1",
+    "odparowanie": null,
+    "suma_opadu": null,
+    "cisnienie": "1007.4"
+  },
+  {
+    "id_stacji": "12360",
+    "stacja": "P\u0142ock",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "48.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.5"
+  },
+  {
+    "id_stacji": "12330",
+    "stacja": "Pozna\u0144",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "9.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "170",
+    "wilgotnosc_wzgledna": "43.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000001.1",
+    "cisnienie": "1008.5"
+  },
+  {
+    "id_stacji": "12695",
+    "stacja": "Przemy\u015bl",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.9",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "99",
+    "wilgotnosc_wzgledna": "49.8",
+    "odparowanie": null,
+    "suma_opadu": "000000000000",
+    "cisnienie": "1013"
+  },
+  {
+    "id_stacji": "12540",
+    "stacja": "Racib\u00f3rz",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.7",
+    "predkosc_wiatru": "6",
+    "kierunek_wiatru": "210",
+    "wilgotnosc_wzgledna": "67.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1012.2"
+  },
+  {
+    "id_stacji": "12210",
+    "stacja": "Resko",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.5",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "350",
+    "wilgotnosc_wzgledna": "72.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000000",
+    "cisnienie": "1008.3"
+  },
+  {
+    "id_stacji": "12580",
+    "stacja": "Rzesz\u00f3w",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.5",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "150",
+    "wilgotnosc_wzgledna": "55.8",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1012.8"
+  },
+  {
+    "id_stacji": "12585",
+    "stacja": "Sandomierz",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.8",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "150",
+    "wilgotnosc_wzgledna": "52.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1012"
+  },
+  {
+    "id_stacji": "12385",
+    "stacja": "Siedlce",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.7",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "190",
+    "wilgotnosc_wzgledna": "53.5",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1010.9"
+  },
+  {
+    "id_stacji": "12310",
+    "stacja": "S\u0142ubice",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "9.4",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "220",
+    "wilgotnosc_wzgledna": "46.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1008.1"
+  },
+  {
+    "id_stacji": "12469",
+    "stacja": "Sulej\u00f3w",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "160",
+    "wilgotnosc_wzgledna": "59.8",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1010.4"
+  },
+  {
+    "id_stacji": "12195",
+    "stacja": "Suwa\u0142ki",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.4",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "180",
+    "wilgotnosc_wzgledna": "51.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1009.4"
+  },
+  {
+    "id_stacji": "12205",
+    "stacja": "Szczecin",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "8.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "280",
+    "wilgotnosc_wzgledna": "49.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000002.2",
+    "cisnienie": "1008.4"
+  },
+  {
+    "id_stacji": "12215",
+    "stacja": "Szczecinek",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6",
+    "predkosc_wiatru": "0",
+    "kierunek_wiatru": "0",
+    "wilgotnosc_wzgledna": "67.6",
+    "odparowanie": null,
+    "suma_opadu": "000000000000",
+    "cisnienie": "1008.1"
+  },
+  {
+    "id_stacji": "12510",
+    "stacja": "\u015anie\u017cka",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "-6",
+    "predkosc_wiatru": "6",
+    "kierunek_wiatru": "210",
+    "wilgotnosc_wzgledna": "97.0",
+    "odparowanie": null,
+    "suma_opadu": "0000000003.2",
+    "cisnienie": null
+  },
+  {
+    "id_stacji": "12200",
+    "stacja": "\u015awinouj\u015bcie",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "2.8",
+    "predkosc_wiatru": "0",
+    "kierunek_wiatru": "0",
+    "wilgotnosc_wzgledna": "82.9",
+    "odparowanie": null,
+    "suma_opadu": "0000000003.8",
+    "cisnienie": "1009.1"
+  },
+  {
+    "id_stacji": "12575",
+    "stacja": "Tarn\u00f3w",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.2",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "150",
+    "wilgotnosc_wzgledna": "44.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.2",
+    "cisnienie": "1011.3"
+  },
+  {
+    "id_stacji": "12399",
+    "stacja": "Terespol",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.8",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "57.9",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1011.7"
+  },
+  {
+    "id_stacji": "12250",
+    "stacja": "Toru\u0144",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.9",
+    "predkosc_wiatru": "0",
+    "kierunek_wiatru": "0",
+    "wilgotnosc_wzgledna": "51.5",
+    "odparowanie": null,
+    "suma_opadu": "0000000001.3",
+    "cisnienie": "1008.9"
+  },
+  {
+    "id_stacji": "12115",
+    "stacja": "Ustka",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "3.9",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "230",
+    "wilgotnosc_wzgledna": "75.0",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.6",
+    "cisnienie": "1008.7"
+  },
+  {
+    "id_stacji": "12375",
+    "stacja": "Warszawa",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "7.9",
+    "predkosc_wiatru": "1",
+    "kierunek_wiatru": "190",
+    "wilgotnosc_wzgledna": "49.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.1",
+    "cisnienie": "1010.3"
+  },
+  {
+    "id_stacji": "12455",
+    "stacja": "Wielu\u0144",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5.4",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "210",
+    "wilgotnosc_wzgledna": "59.5",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1010.8"
+  },
+  {
+    "id_stacji": "12497",
+    "stacja": "W\u0142odawa",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "5",
+    "predkosc_wiatru": "4",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "60.7",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1012.1"
+  },
+  {
+    "id_stacji": "12424",
+    "stacja": "Wroc\u0142aw",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "6.4",
+    "predkosc_wiatru": "6",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "57.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.9",
+    "cisnienie": "1009.7"
+  },
+  {
+    "id_stacji": "12625",
+    "stacja": "Zakopane",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "2.9",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "230",
+    "wilgotnosc_wzgledna": "55.8",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.5",
+    "cisnienie": null
+  },
+  {
+    "id_stacji": "12595",
+    "stacja": "Zamo\u015b\u0107",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "4.5",
+    "predkosc_wiatru": "2",
+    "kierunek_wiatru": "200",
+    "wilgotnosc_wzgledna": "58.8",
+    "odparowanie": null,
+    "suma_opadu": "000000000.01",
+    "cisnienie": "1012.8"
+  },
+  {
+    "id_stacji": "12400",
+    "stacja": "Zielona G\u00f3ra",
+    "data_pomiaru": "2018-03-25",
+    "godzina_pomiaru": "17",
+    "temperatura": "8.6",
+    "predkosc_wiatru": "3",
+    "kierunek_wiatru": "240",
+    "wilgotnosc_wzgledna": "45.6",
+    "odparowanie": null,
+    "suma_opadu": "0000000000.2",
+    "cisnienie": "1008.3"
+  }
+]
