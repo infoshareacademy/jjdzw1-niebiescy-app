@@ -1,11 +1,27 @@
+import org.apache.commons.lang.StringEscapeUtils;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
+
+
+/**
+ *
+ * @author Marek Witkowski
+ *
+ *
+ */
+
 
 public class MeteoDataDownloader {
+
+    /**
+     * Opic metody
+     *
+     * @return - String: JSON string of null, if error.
+     */
 
 
     public static String fromURL() {
@@ -26,7 +42,7 @@ public class MeteoDataDownloader {
 
             }
 
-            return outputString.toString();
+            return StringEscapeUtils.unescapeJava(outputString.toString());
 
 
         } catch (Exception e) {
