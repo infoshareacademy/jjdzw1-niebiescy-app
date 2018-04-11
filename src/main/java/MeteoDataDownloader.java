@@ -8,26 +8,25 @@ import java.nio.charset.Charset;
 
 
 /**
- *
  * @author Marek Witkowski
- *
- *
  */
 
 
 public class MeteoDataDownloader {
 
-    /**
-     * Opic metody
-     *
-     * @return - String: JSON string of null, if error.
-     */
-
 
     public static String fromURL() {
 
+        return fromURL("");
+
+    }
+
+
+    public static String fromURL(String placeToReciv) {
+
+
         try {
-            URL remoteServer = new URL("https://danepubliczne.imgw.pl/api/data/synop/format/json");
+            URL remoteServer = new URL(urlBuilder(placeToReciv));
             URLConnection connection = remoteServer.openConnection();
 
             BufferedReader bf = new BufferedReader(new InputStreamReader(connection.getInputStream(), Charset.forName("UTF-8")));
@@ -49,8 +48,21 @@ public class MeteoDataDownloader {
             e.printStackTrace();
         }
 
-
         return null;
+
+    }
+
+    private static String urlBuilder(String placeToReciv) {
+
+
+        if (placeToReciv == null || placeToReciv == "") {
+
+            return "https://danepubliczne.imgw.pl/api/data/synop/format/json";
+
+        }
+
+        return "https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
+
 
     }
 
