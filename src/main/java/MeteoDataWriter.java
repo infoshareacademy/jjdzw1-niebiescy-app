@@ -1,9 +1,28 @@
 
-
 public class MeteoDataWriter {
 
+    MeteoDataDownloader dataWriter = new MeteoDataDownloader();
 
-    MeteoDataDownloader meteoData = new MeteoDataDownloader();
+    public String jsonWriter() {
+
+        String jsonStringHolder;
+
+        jsonStringHolder =  dataWriter.fromURL("");
+
+
+
+
+
+
+
+
+
+
+        return jsonStringHolder;
+
+
+    }
+
 
 
 }
