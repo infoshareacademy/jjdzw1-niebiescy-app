@@ -25,13 +25,10 @@ public class MeteoDataWriter {
 
             String filename = "daneIMGW.json";
             String workingDirectory = System.getProperty("user.dir");
-
-
             String absoluteFilePath = "";
 
 
             absoluteFilePath = workingDirectory + File.separator + "/src/main/resources/" + filename;
-
             System.out.println("Final filepath : " + absoluteFilePath);
 
 
