@@ -8,6 +8,7 @@ public class Main {
         System.out.println(MeteoDataDownloader.fromURL("warszawa"));
         System.out.println(MeteoDataDownloader.fromURL("torun"));
         System.out.println(MeteoDataDownloader.fromURL("jeleniagora"));
+        System.out.println(MeteoDataDownloader.fromURL("bialystok"));
 
 
 

@@ -14,11 +14,6 @@ import java.nio.charset.Charset;
 
 public class MeteoDataDownloader {
 
-    /**
-     * Opic metody
-     *
-     * @return - String: JSON string of null, if error.
-     */
 
     public static String fromURL() {
 
