@@ -50,7 +50,9 @@ public class MeteoDataDownloader {
 
 
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.error("Connection error.      URL: " + urlBuilder(placeToReciv));
+            LOGGER.error("Connection error. Exeption: ", e);
+
         }
 
         return null;
@@ -64,13 +66,13 @@ public class MeteoDataDownloader {
         if (placeToReciv == null || placeToReciv.equals("")) {
 
             address = "https://danepubliczne.imgw.pl/api/data/synop/format/json";
-            LOGGER.debug("Address URL: " + address);
+            LOGGER.debug("URL: " + address);
             return address;
 
         }
 
         address ="https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
-        LOGGER.debug("Address URL: " + address);
+        LOGGER.debug("URL: " + address);
         return address;
 
 
