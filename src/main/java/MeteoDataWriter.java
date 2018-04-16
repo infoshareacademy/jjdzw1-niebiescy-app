@@ -2,10 +2,13 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MeteoDataWriter {
@@ -46,6 +49,33 @@ public class MeteoDataWriter {
         return jsonStringHolder;
 
 
+    }
+
+    /**
+     * Method to create and fulfill ArrayList with weather for all cities
+     *
+     * @param jsonStringHolder from jsonWriter() method
+     * @return meteoStationsCollection
+     */
+    public List<MeteoStation> MeteoCollection(String jsonStringHolder) {
+        MeteoDataWriter meteoDataWriter = new MeteoDataWriter();
+
+        Gson gson = new GsonBuilder().create();
+
+        TypeToken<List<MeteoStation>> token = new TypeToken<List<MeteoStation>>() {
+        };
+
+        return gson.fromJson(meteoDataWriter.jsonWriter(), token.getType());
+    }
+
+    public ArrayList getListOfCities(List meteoStationsCollection) {
+        ArrayList cities = new ArrayList();
+        for (int i = 0; i < meteoStationsCollection.size(); i++) {
+            cities.add(i);
+        }
+        // or using streams
+        //meteoStationsCollection.stream().map(MeteoStation::getStacja)
+        return cities;
     }
 
 
