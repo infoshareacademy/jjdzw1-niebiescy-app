@@ -32,7 +32,7 @@ public class MeteoDataDownloader {
             BufferedReader bf = new BufferedReader(new InputStreamReader(connection.getInputStream(), Charset.forName("UTF-8")));
 
 
-            String inputLine = new String();
+            String inputLine;
             StringBuilder outputString = new StringBuilder();
 
             while ((inputLine = bf.readLine()) != null) {
