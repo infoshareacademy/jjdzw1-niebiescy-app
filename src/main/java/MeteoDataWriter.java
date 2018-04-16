@@ -1,19 +1,21 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+
 import java.io.File;
-import java.io.IOException;
 import java.io.FileWriter;
 import java.io.IOException;
-
-import com.google.gson.*;
 
 
 public class MeteoDataWriter {
 
-    MeteoDataDownloader dataWriter = new MeteoDataDownloader();
+    private MeteoDataDownloader dataWriter = new MeteoDataDownloader();
 
     public String jsonWriter() {
 
         String jsonStringHolder;
-        jsonStringHolder = dataWriter.fromURL("");
+        jsonStringHolder = MeteoDataDownloader.fromURL("");
 
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -25,10 +27,10 @@ public class MeteoDataWriter {
 
             String filename = "daneIMGW.json";
             String workingDirectory = System.getProperty("user.dir");
-            String absoluteFilePath = "";
+            String absoluteFilePath;
 
 
-            absoluteFilePath = workingDirectory + File.separator + "/src/main/resources/" + filename;
+            absoluteFilePath = workingDirectory + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + filename;
             System.out.println("Final filepath : " + absoluteFilePath);
 
 
