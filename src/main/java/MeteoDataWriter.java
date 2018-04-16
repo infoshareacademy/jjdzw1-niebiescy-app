@@ -10,8 +10,7 @@ import java.io.IOException;
 
 public class MeteoDataWriter {
 
-    private MeteoDataDownloader dataWriter = new MeteoDataDownloader();
-
+    //TODO method can possibly take object as an argument
     public String jsonWriter() {
 
         String jsonStringHolder;
@@ -20,6 +19,7 @@ public class MeteoDataWriter {
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JsonParser jp = new JsonParser();
+        //TODO null argument checker
         JsonElement je = jp.parse(jsonStringHolder);
         String prettyJsonString = gson.toJson(je);
 
