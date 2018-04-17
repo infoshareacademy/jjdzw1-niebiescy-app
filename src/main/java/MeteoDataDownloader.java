@@ -1,4 +1,6 @@
 import org.apache.commons.lang.StringEscapeUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -14,15 +16,17 @@ import java.nio.charset.Charset;
 
 public class MeteoDataDownloader {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(MeteoDataDownloader.class);
 
-    public static String fromURL() {
+
+    static String fromURL() {
 
         return fromURL("");
 
     }
 
 
-    public static String fromURL(String placeToReciv) {
+    static String fromURL(String placeToReciv) {
 
 
         try {
@@ -41,11 +45,14 @@ public class MeteoDataDownloader {
 
             }
 
+            LOGGER.debug("Json: " + StringEscapeUtils.unescapeJava(outputString.toString()));
             return StringEscapeUtils.unescapeJava(outputString.toString());
 
 
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.error("Connection error.      URL: " + urlBuilder(placeToReciv));
+            LOGGER.error("Connection error. Exeption: ", e);
+
         }
 
         return null;
@@ -54,14 +61,19 @@ public class MeteoDataDownloader {
 
     private static String urlBuilder(String placeToReciv) {
 
+        String address;
 
-        if (placeToReciv == null || placeToReciv == "") {
+        if (placeToReciv == null || placeToReciv.equals("")) {
 
-            return "https://danepubliczne.imgw.pl/api/data/synop/format/json";
+            address = "https://danepubliczne.imgw.pl/api/data/synop/format/json";
+            LOGGER.debug("URL: " + address);
+            return address;
 
         }
 
-        return "https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
+        address ="https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
+        LOGGER.debug("URL: " + address);
+        return address;
 
 
     }
