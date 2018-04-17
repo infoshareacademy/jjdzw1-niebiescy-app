@@ -7,11 +7,22 @@ import com.google.gson.reflect.TypeToken;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class MeteoDataWriter {
+
+    private List<MeteoStation> listOfMeteoStations;
+
+
+    public List<MeteoStation> getListOfMeteoStations() {
+        return listOfMeteoStations;
+    }
+
+    public void setListOfMeteoStations(List<MeteoStation> listOfMeteoStations) {
+        this.listOfMeteoStations = listOfMeteoStations;
+    }
+
 
     //TODO method can possibly take object as an argument
     public String jsonWriter() {
@@ -34,7 +45,7 @@ public class MeteoDataWriter {
 
 
             absoluteFilePath = workingDirectory + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + filename;
-            System.out.println("Final filepath : " + absoluteFilePath);
+           // System.out.println("Final filepath : " + absoluteFilePath);
 
 
             FileWriter writer = new FileWriter(absoluteFilePath);
@@ -65,18 +76,12 @@ public class MeteoDataWriter {
         TypeToken<List<MeteoStation>> token = new TypeToken<List<MeteoStation>>() {
         };
 
-        return gson.fromJson(meteoDataWriter.jsonWriter(), token.getType());
+        listOfMeteoStations = gson.fromJson(meteoDataWriter.jsonWriter(), token.getType());
+
+        return listOfMeteoStations;
     }
 
-    public ArrayList getListOfCities(List meteoStationsCollection) {
-        ArrayList cities = new ArrayList();
-        for (int i = 0; i < meteoStationsCollection.size(); i++) {
-            cities.add(i);
-        }
-        // or using streams
-        //meteoStationsCollection.stream().map(MeteoStation::getStacja)
-        return cities;
-    }
+
 
 
 }

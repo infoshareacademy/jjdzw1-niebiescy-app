@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Menu {
@@ -29,6 +30,7 @@ class Menu {
 
             MeteoDataWriter writer = new MeteoDataWriter();
             writer.MeteoCollection(writer.jsonWriter());
+
             int collectionSize = writer.getListOfMeteoStations().size();
 
             System.out.println("Please enter city name");
@@ -38,13 +40,21 @@ class Menu {
             Scanner read = new Scanner(System.in);
             userCity = read.nextLine();
 
-            for (int i = 0; i < collectionSize - 1; i++) {
-                if (writer.getListOfMeteoStations().get(i).getStacja().equals(userCity)) {
-                    userStationId = i;
-                }
-            }
+            boolean checkIfCityExists = writer.getListOfMeteoStations().stream()
+                    .anyMatch(MeteoStation -> userCity.equals(MeteoStation.getStacja()));
 
-            printWeatherForSelectedCity(userStationId);
+            if (checkIfCityExists) {
+                for (int j = 0; j < collectionSize - 1; j++) {
+                    if (writer.getListOfMeteoStations().get(j).getStacja().equals(userCity)) {
+                        userStationId = j;
+
+                    }
+
+                }
+
+                printWeatherForSelectedCity(userStationId);
+            } else System.out.println("Sorry, we dont have weather for this city");
+
 
             System.out.println("Do you want to display weather for different city? [Type Y]");
             String userContinue2;
