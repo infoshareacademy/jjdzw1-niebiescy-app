@@ -55,7 +55,7 @@ public class MeteoDataDownloader {
 
         }
 
-        return null;
+        return "";
 
     }
 
