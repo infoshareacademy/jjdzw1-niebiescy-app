@@ -36,6 +36,15 @@
             <version>2.6</version>
         </dependency>
 
+        <!-- Email sending  -->
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+
         <!-- LOG tools -->
 
         <dependency>
