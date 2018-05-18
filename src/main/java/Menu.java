@@ -1,6 +1,10 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 class Menu {
 
     private boolean userContinue = true;
@@ -11,17 +15,6 @@ class Menu {
         return userContinue;
     }
 
-    public void setUserContinue(boolean userContinue) {
-        this.userContinue = userContinue;
-    }
-
-    public int getUserStationId() {
-        return userStationId;
-    }
-
-    public void setUserStationId(int userStationId) {
-        this.userStationId = userStationId;
-    }
 
     public void runMenu() {
 
