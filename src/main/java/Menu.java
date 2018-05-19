@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 class Menu {
 
     void runMenu() {

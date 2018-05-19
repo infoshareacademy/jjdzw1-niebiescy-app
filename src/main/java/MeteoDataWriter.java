@@ -9,20 +9,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 
 public class MeteoDataWriter {
 
+
     private List<MeteoStation> listOfMeteoStations;
-
-
-    public List<MeteoStation> getListOfMeteoStations() {
-        return listOfMeteoStations;
-    }
-
-    public void setListOfMeteoStations(List<MeteoStation> listOfMeteoStations) {
-        this.listOfMeteoStations = listOfMeteoStations;
-    }
-
 
     //TODO method can possibly take object as an argument
     public String jsonWriter() {
@@ -45,7 +41,7 @@ public class MeteoDataWriter {
 
 
             absoluteFilePath = workingDirectory + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + filename;
-           // System.out.println("Final filepath : " + absoluteFilePath);
+            // System.out.println("Final filepath : " + absoluteFilePath);
 
 
             FileWriter writer = new FileWriter(absoluteFilePath);
@@ -80,8 +76,6 @@ public class MeteoDataWriter {
 
         return listOfMeteoStations;
     }
-
-
 
 
 }
