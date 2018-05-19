@@ -1,31 +1,13 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 class Menu {
 
-    private boolean userContinue = true;
-
-    private int userStationId;
-
-    public boolean isUserContinue() {
-        return userContinue;
-    }
-
-    public void setUserContinue(boolean userContinue) {
-        this.userContinue = userContinue;
-    }
-
-    public int getUserStationId() {
-        return userStationId;
-    }
-
-    public void setUserStationId(int userStationId) {
-        this.userStationId = userStationId;
-    }
-
-    public void runMenu() {
+    void runMenu() {
 
         System.out.println("*****************Display weather for selected city******************");
+
+        boolean userContinue = true;
+
         while (userContinue) {
 
             MeteoDataWriter writer = new MeteoDataWriter();
@@ -43,6 +25,8 @@ class Menu {
             boolean checkIfCityExists = writer.getListOfMeteoStations().stream()
                     .anyMatch(MeteoStation -> userCity.equals(MeteoStation.getStacja()));
 
+            int userStationId = -1;
+
             if (checkIfCityExists) {
                 for (int j = 0; j < collectionSize - 1; j++) {
                     if (writer.getListOfMeteoStations().get(j).getStacja().equals(userCity)) {
@@ -53,8 +37,9 @@ class Menu {
                 }
 
                 printWeatherForSelectedCity(userStationId);
-            } else System.out.println("Sorry, we dont have weather for this city");
-
+            } else {
+                System.out.println("Sorry, we dont have weather for this city");
+            }
 
             System.out.println("Do you want to display weather for different city? [Type Y]");
             String userContinue2;
@@ -76,8 +61,7 @@ class Menu {
         for (int i = 0; i < collectionSize - 2; i++) {
             System.out.print(writer.getListOfMeteoStations().get(i).getStacja() + ", ");
         }
-        System.out.print(writer.getListOfMeteoStations().get(collectionSize - 1).getStacja() + "]");
-        System.out.println("");
+        System.out.print(writer.getListOfMeteoStations().get(collectionSize - 1).getStacja() + "]"+"\n");
     }
 
     private void printWeatherForSelectedCity(int userStationId) {
@@ -85,9 +69,7 @@ class Menu {
         MeteoDataWriter writer = new MeteoDataWriter();
         writer.MeteoCollection(writer.jsonWriter());
 
-        System.out.println("");
-        System.out.println("Pogoda dla miasta: " + writer.getListOfMeteoStations().get(userStationId).getStacja());
-        System.out.println("");
+        System.out.println("\nPogoda dla miasta: " + writer.getListOfMeteoStations().get(userStationId).getStacja()+"\n");
         System.out.println("Data pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getDataPomiaru());
         System.out.println("Godzina pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getGodzinaPomiaru());
         System.out.println("Temperatura: " + writer.getListOfMeteoStations().get(userStationId).getTemperatura());
