@@ -71,7 +71,7 @@ public class MeteoDataDownloader {
 
         }
 
-        address ="https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
+        address = "https://danepubliczne.imgw.pl/api/data/synop/station/" + placeToReciv.trim() + "/format/json";
         LOGGER.debug("URL: " + address);
         return address;
 
