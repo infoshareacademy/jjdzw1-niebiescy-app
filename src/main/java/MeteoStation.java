@@ -10,7 +10,7 @@ public class MeteoStation {
 
     @SerializedName("id_stacji")
     @Expose
-    private String idStacji;
+    private String stationId;
 
     @SerializedName("stacja")
     @Expose
