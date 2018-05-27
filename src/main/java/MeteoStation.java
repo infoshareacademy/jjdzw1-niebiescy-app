@@ -14,38 +14,38 @@ public class MeteoStation {
 
     @SerializedName("stacja")
     @Expose
-    private String stacja;
+    private String station;
 
     @SerializedName("data_pomiaru")
     @Expose
-    private String dataPomiaru;
+    private String measureDate;
 
     @SerializedName("godzina_pomiaru")
     @Expose
-    private String godzinaPomiaru;
+    private String measureTime;
 
     @SerializedName("temperatura")
     @Expose
-    private String temperatura;
+    private String temperature;
 
     @SerializedName("predkosc_wiatru")
     @Expose
-    private String predkoscWiatru;
+    private String windSpeed;
 
     @SerializedName("kierunek_wiatru")
     @Expose
-    private String kierunekWiatru;
+    private String windDir;
 
     @SerializedName("wilgotnosc_wzgledna")
     @Expose
-    private String wilgotnoscWzgledna;
+    private String humidity;
 
     @SerializedName("suma_opadu")
     @Expose
-    private String sumaOpadu;
+    private String rainfallSum;
 
     @SerializedName("cisnienie")
     @Expose
-    private String cisnienie;
+    private String pressure;
 }
 

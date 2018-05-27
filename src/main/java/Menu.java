@@ -28,13 +28,13 @@ class Menu {
             userCity = read.nextLine();
 
             boolean checkIfCityExists = writer.getListOfMeteoStations().stream()
-                    .anyMatch(MeteoStation -> userCity.equals(MeteoStation.getStacja()));
+                    .anyMatch(MeteoStation -> userCity.equals(MeteoStation.getStation()));
 
             int userStationId = -1;
 
             if (checkIfCityExists) {
                 for (int j = 0; j < collectionSize - 1; j++) {
-                    if (writer.getListOfMeteoStations().get(j).getStacja().equals(userCity)) {
+                    if (writer.getListOfMeteoStations().get(j).getStation().equals(userCity)) {
                         userStationId = j;
 
                     }
@@ -64,9 +64,9 @@ class Menu {
 
         System.out.print("[");
         for (int i = 0; i < collectionSize - 2; i++) {
-            System.out.print(writer.getListOfMeteoStations().get(i).getStacja() + ", ");
+            System.out.print(writer.getListOfMeteoStations().get(i).getStation() + ", ");
         }
-        System.out.print(writer.getListOfMeteoStations().get(collectionSize - 1).getStacja() + "]" + "\n");
+        System.out.print(writer.getListOfMeteoStations().get(collectionSize - 1).getStation() + "]" + "\n");
     }
 
     private void printWeatherForSelectedCity(int userStationId) {
@@ -74,14 +74,14 @@ class Menu {
         MeteoDataWriter writer = new MeteoDataWriter();
         writer.MeteoCollection(writer.jsonWriter());
 
-        System.out.println("\nPogoda dla miasta: " + writer.getListOfMeteoStations().get(userStationId).getStacja() + "\n");
-        System.out.println("Data pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getDataPomiaru());
-        System.out.println("Godzina pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getGodzinaPomiaru());
-        System.out.println("Temperatura: " + writer.getListOfMeteoStations().get(userStationId).getTemperatura());
-        System.out.println("Predkosc wiatru: " + writer.getListOfMeteoStations().get(userStationId).getPredkoscWiatru());
-        System.out.println("Kierunek wiatru: " + writer.getListOfMeteoStations().get(userStationId).getKierunekWiatru());
-        System.out.println("Wilgotnosc wzgledna: " + writer.getListOfMeteoStations().get(userStationId).getWilgotnoscWzgledna());
-        System.out.println("Suma opadów: " + writer.getListOfMeteoStations().get(userStationId).getSumaOpadu());
-        System.out.println("Cisnienie: " + writer.getListOfMeteoStations().get(userStationId).getCisnienie());
+        System.out.println("\nPogoda dla miasta: " + writer.getListOfMeteoStations().get(userStationId).getStation() + "\n");
+        System.out.println("Data pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getMeasureDate());
+        System.out.println("Godzina pomiaru: " + writer.getListOfMeteoStations().get(userStationId).getMeasureTime());
+        System.out.println("Temperatura: " + writer.getListOfMeteoStations().get(userStationId).getTemperature());
+        System.out.println("Predkosc wiatru: " + writer.getListOfMeteoStations().get(userStationId).getWindSpeed());
+        System.out.println("Kierunek wiatru: " + writer.getListOfMeteoStations().get(userStationId).getWindDir());
+        System.out.println("Wilgotnosc wzgledna: " + writer.getListOfMeteoStations().get(userStationId).getHumidity());
+        System.out.println("Suma opadów: " + writer.getListOfMeteoStations().get(userStationId).getRainfallSum());
+        System.out.println("Cisnienie: " + writer.getListOfMeteoStations().get(userStationId).getPressure());
     }
 }
