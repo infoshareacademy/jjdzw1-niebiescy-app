@@ -1,5 +1,10 @@
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
 
+@Getter
+@Setter
 class Event {
 
     private String name;
@@ -11,67 +16,4 @@ class Event {
     private Double price;
     private Integer tickets;
 
-    String getName() {
-        return name;
-    }
-
-    void setName(String name) {
-        this.name = name;
-    }
-
-    String getDescription() {
-        return description;
-    }
-
-    void setDescription(String description) {
-        this.description = description;
-    }
-
-    Date getStartDate() {
-        return startDate;
-    }
-
-    void setStartDate(Date startDate) {
-        this.startDate = startDate;
-    }
-
-    Date getFinishDate() {
-        return finishDate;
-    }
-
-    void setFinishDate(Date finishDate) {
-        this.finishDate = finishDate;
-    }
-
-    String getAddress() {
-        return address;
-    }
-
-    void setAddress(String address) {
-        this.address = address;
-    }
-
-    Integer getOrganizer() {
-        return organizer;
-    }
-
-    void setOrganizer(Integer organizer) {
-        this.organizer = organizer;
-    }
-
-    Double getPrice() {
-        return price;
-    }
-
-    void setPrice(Double price) {
-        this.price = price;
-    }
-
-    Integer getTickets() {
-        return tickets;
-    }
-
-    void setTickets(Integer tickets) {
-        this.tickets = tickets;
-    }
 }
