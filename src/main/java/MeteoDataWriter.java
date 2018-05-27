@@ -52,9 +52,7 @@ public class MeteoDataWriter {
             e.printStackTrace();
         }
 
-
         return jsonStringHolder;
-
 
     }
 
