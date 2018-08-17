@@ -1,3 +1,5 @@
+package niebiescyapp;
+
 import java.util.Scanner;
 
 import lombok.Getter;

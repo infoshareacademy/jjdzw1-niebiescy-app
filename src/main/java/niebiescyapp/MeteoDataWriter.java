@@ -1,3 +1,5 @@
+package niebiescyapp;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
@@ -8,6 +10,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -73,6 +76,16 @@ public class MeteoDataWriter {
         listOfMeteoStations = gson.fromJson(meteoDataWriter.jsonWriter(), token.getType());
 
         return listOfMeteoStations;
+    }
+
+    public MeteoStation getWeatherByCity(String cityName) {
+
+        MeteoDataWriter writer = new MeteoDataWriter();
+        MeteoStation meteoStation1 = writer.MeteoCollection(writer.jsonWriter()).stream()
+                .filter(d -> d.getStation().equals(cityName))
+                .collect(Collectors.toList())
+                .get(0);
+        return meteoStation1;
     }
 
 

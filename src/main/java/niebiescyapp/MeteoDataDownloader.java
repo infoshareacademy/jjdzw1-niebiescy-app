@@ -1,3 +1,5 @@
+package niebiescyapp;
+
 import org.apache.commons.lang.StringEscapeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,14 +21,14 @@ public class MeteoDataDownloader {
     private static final Logger LOGGER = LoggerFactory.getLogger(MeteoDataDownloader.class);
 
 
-    static String fromURL() {
+    public static String fromURL() {
 
         return fromURL("");
 
     }
 
 
-    static String fromURL(String placeToReciv) {
+    public static String fromURL(String placeToReciv) {
 
 
         try {
